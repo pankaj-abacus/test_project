@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navBar{
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px 6px;
+}
+
+.logoBox{
+	border: 3px solid green;
+	border-radius: 50%;
+	overflow: hidden;
+	height: 30px;
+	width: 30px;
+}
+
+.logoBox img{
+	height: 100%;
+	width: 100%;
+}
+
+.tabsBox ul{
+	list-style: none;
+	display: flex;
+	min-width: 200px;
+	justify-content: space-between;
+}
+
+.tabsBox ul li{
+	background-color: white;
+	padding: 0 5px;
+	border-radius: 4px;
+	color: red;
+}
+
+.tabsBox ul li a{
+	color: red;
+	text-decoration: none;
+}
